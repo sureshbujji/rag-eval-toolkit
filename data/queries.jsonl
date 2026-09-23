@@ -1,0 +1,10 @@
+{"id": "q1", "query": "How do I authenticate API requests?", "relevant_doc_ids": ["auth"]}
+{"id": "q2", "query": "What is the maximum partial refund timeframe after a charge?", "relevant_doc_ids": ["refunds"]}
+{"id": "q3", "query": "How do I verify a webhook signature?", "relevant_doc_ids": ["webhooks"]}
+{"id": "q4", "query": "What happens when I exceed the rate limit?", "relevant_doc_ids": ["rate-limits", "errors"]}
+{"id": "q5", "query": "What does card_declined mean and should I retry it?", "relevant_doc_ids": ["errors"]}
+{"id": "q6", "query": "How long do payouts take to reach my bank account?", "relevant_doc_ids": ["payouts"]}
+{"id": "q7", "query": "How much time do I have to respond to a chargeback dispute?", "relevant_doc_ids": ["disputes"]}
+{"id": "q8", "query": "How do I create a payment and handle idempotency?", "relevant_doc_ids": ["payments"]}
+{"id": "q9", "query": "What is the test card number and how do live API keys look?", "relevant_doc_ids": ["getting-started", "auth"]}
+{"id": "q10", "query": "How many saved payment methods can a customer store?", "relevant_doc_ids": ["customers"]}
