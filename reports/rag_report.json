@@ -1,0 +1,85 @@
+{
+  "generated_at": "2026-09-23T03:58:16.331538+00:00",
+  "corpus": {
+    "num_docs": 10,
+    "num_queries": 10
+  },
+  "retrieval_k": 3,
+  "strategies": {
+    "fixed_size": {
+      "num_chunks": 20,
+      "metrics": {
+        "precision@1": 0.9,
+        "precision@3": 0.5667,
+        "precision@5": 0.5667,
+        "recall@1": 0.8,
+        "recall@3": 1.0,
+        "recall@5": 1.0
+      }
+    },
+    "sentence_aware": {
+      "num_chunks": 20,
+      "metrics": {
+        "precision@1": 0.9,
+        "precision@3": 0.5667,
+        "precision@5": 0.5667,
+        "recall@1": 0.8,
+        "recall@3": 1.0,
+        "recall@5": 1.0
+      }
+    },
+    "overlapping": {
+      "num_chunks": 20,
+      "metrics": {
+        "precision@1": 0.9,
+        "precision@3": 0.6,
+        "precision@5": 0.6,
+        "recall@1": 0.8,
+        "recall@3": 1.0,
+        "recall@5": 1.0
+      }
+    }
+  },
+  "best_strategy_by_precision_at_3": "overlapping",
+  "drift": {
+    "perturbed_run": {
+      "drift_score": 0.1,
+      "fingerprint_a": "8fae59f5ab7b87047304255f55e3f669bc6f93f5ad0f02c0349a3bbb6123ef0c",
+      "fingerprint_b": "05ad01a9a98664932d9407e346f392f42da8a725cff3146d2bf78fcd49dac0ca",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "refunds:sent:0",
+        "webhooks:sent:1"
+      ],
+      "drifted": true
+    },
+    "identical_run": {
+      "drift_score": 0.0,
+      "drifted": false
+    }
+  },
+  "faithfulness": [
+    {
+      "query": "How do I verify a webhook signature?",
+      "grounded_answer_score": 5,
+      "grounded_claims": 2,
+      "ungrounded_answer_score": 2,
+      "ungrounded_claims": 2
+    },
+    {
+      "query": "What happens when I exceed the rate limit?",
+      "grounded_answer_score": 5,
+      "grounded_claims": 3,
+      "ungrounded_answer_score": 2,
+      "ungrounded_claims": 2
+    },
+    {
+      "query": "How long do payouts take?",
+      "grounded_answer_score": 5,
+      "grounded_claims": 2,
+      "ungrounded_answer_score": 1,
+      "ungrounded_claims": 1
+    }
+  ]
+}
